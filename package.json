@@ -1,0 +1,20 @@
+{
+  "name": "cduexamples",
+  "version": "1.0.0",
+  "description": "examples to use the cdu library",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "showDevice": "node showDevice.js",
+    "displayKeyStrokes": "node displayKeyStrokes.js",
+    "customiseCDU": "node customiseCDU.js",
+    "example": "node example.js",
+    "syntax": "node syntax.js"
+  },
+  "author": "Laurent Andre <laurent.and@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "cdu737": "^0.5.0"
+  }
+}
